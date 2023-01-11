@@ -1,0 +1,20 @@
+- name: Smash Brothers Character Cards
+  price: 10.00 +
+  alt: A picture of super smash brothers melee character selection cards.
+  image: https://i.etsystatic.com/37993277/r/il/792eb5/4381827038/il_1140xN.4381827038_c22e.jpg
+  link: https://www.etsy.com/listing/1332385576/super-smash-brothers-melee-character
+
+- name: Spelunky Characters
+  price: 8.00 +
+  alt: A picture of all the default spelunky characters on a desk.
+  position: bottom
+  image: https://i.etsystatic.com/37993277/r/il/0b564c/4431846556/il_1140xN.4431846556_nkxu.jpg
+  link: https://www.etsy.com/listing/1348746444/spelunky-2-character-keychain
+
+
+- name: Korok Tokens
+  price: 5.00 +
+  alt: A picture of laser engraved wooden tokens
+  position: bottom
+  image: https://i.etsystatic.com/37993277/r/il/6693df/4354982716/il_1140xN.4354982716_on8t.jpg
+  link: https://www.etsy.com/listing/1317302069/korok-seedling-tokens

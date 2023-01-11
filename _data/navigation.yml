@@ -1,0 +1,6 @@
+- name: Home
+  link: /
+- name: Etsy
+  link: https://www.etsy.com/shop/efforgreen
+- name: Contact
+  link: /contact.html
