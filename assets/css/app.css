@@ -82,7 +82,7 @@ body {
 }
 @media (max-width: 767px) {
   .fullscreen-bg {
-    background: url("https://storage.coverr.co/t/Yh1kERqtFxxfzaX2Zb02UqoUAJ7zkQ02tA") center center/cover no-repeat;
+    background: url("../images/cover.jpg") center center/cover no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -91,17 +91,26 @@ body {
   .fullscreen-bg__video {
     display: none;
   }
+
+  .content {
+    top: 65%;
+  }
+
+
+
 }
 .footer {
   position: absolute;
   bottom: 0;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  text-align: center;
   font-size: 10px;
   opacity: 0.6;
+  width: 100%;
 }
 .footer__text {
   margin: 0;
+  width: 100%;
+  text-align: center;
   color: #fff;
   letter-spacing: 0.2em;
 }
@@ -127,11 +136,14 @@ body {
     height: 25px;
     font-size: 1rem;
     color: rgb(177, 177, 177);
+    background-color: rgba(0, 0, 0, 0.226);
+    transition: background-color 0.5s;
     transition: color 0.5s;
   }
 
   .social-media.secondary a:hover {
     color: rgb(255, 255, 255);
+    transition: background-color 0.5s;
   }
 
   .social-media a {
@@ -145,11 +157,12 @@ body {
     padding: 24px;
     text-decoration: none;
     color: #FFF;
+    background-color: rgba(0, 0, 0, 0.226);
     transition: background-color 0.5s;
     border: 1px solid rgb(190, 190, 190);
   }
 
   .social-media a:hover {
-    
+    transition: background-color 0.5s;
     background-color: rgba(190, 190, 190, 0.534);
   }

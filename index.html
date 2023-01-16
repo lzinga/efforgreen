@@ -7,22 +7,26 @@ title: Home
 <!-- <h1 class="content__title">Efforgreen</h1> -->
 <p class="content__text">@EFFORGREEN</p>
 
-<div class="social-media">
 
-    {% for item in site.data.social-media %}
-        {% if item.type == "primary" %}
+<div class="social">
+    <div class="social-media">
+
+        {% for item in site.data.social-media %}
+            {% if item.type == "primary" %}
+                <a href="{{ item.link }}" title="{{ item.name | capitalize }}"><i class="{{ item.icon }}"></i></a>
+            {% endif %}
+        {% endfor %}    
+    </div>
+    
+    
+    <div class="social-media secondary">
+        {% for item in site.data.social-media %}
+        {% if item.type == "secondary" %}
             <a href="{{ item.link }}" title="{{ item.name | capitalize }}"><i class="{{ item.icon }}"></i></a>
         {% endif %}
-    {% endfor %}    
-</div>
-
-
-<div class="social-media secondary">
-    {% for item in site.data.social-media %}
-    {% if item.type == "secondary" %}
-        <a href="{{ item.link }}" title="{{ item.name | capitalize }}"><i class="{{ item.icon }}"></i></a>
-    {% endif %}
-{% endfor %}
+    {% endfor %}
+    </div>
+    
 </div>
 
 
