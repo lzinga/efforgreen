@@ -1,0 +1,27 @@
+- name: etsy
+  link: https://www.etsy.com/shop/efforgreen
+  icon: "fa-brands fa-etsy"
+  type: primary
+- name: facebook
+  link: https://www.facebook.com/Efforgreen/
+  icon: "fa-brands fa-facebook-f"
+  type: primary
+- name: twitter
+  link: https://twitter.com/efforgreen
+  icon: "fa-brands fa-twitter"
+  type: primary
+
+- name: youtube
+  link: https://www.youtube.com/@efforgreen
+  icon: "fa-brands fa-youtube"
+  type: secondary
+
+- name: instagram
+  link: https://www.instagram.com/efforgreen/
+  icon: "fa-brands fa-instagram"
+  type: secondary
+
+- name: tiktok
+  link: https://www.tiktok.com/@efforgreen
+  icon: "fa-brands fa-tiktok"
+  type: secondary
