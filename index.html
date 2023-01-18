@@ -13,7 +13,7 @@ title: Home
 
         {% for item in site.data.social-media %}
             {% if item.type == "primary" %}
-                <a href="{{ item.link }}" title="{{ item.name | capitalize }}"><i class="{{ item.icon }}"></i></a>
+                <a target="_blank" href="{{ item.link }}" title="{{ item.name | capitalize }}"><i class="{{ item.icon }}"></i></a>
             {% endif %}
         {% endfor %}    
     </div>
@@ -22,7 +22,7 @@ title: Home
     <div class="social-media secondary">
         {% for item in site.data.social-media %}
         {% if item.type == "secondary" %}
-            <a href="{{ item.link }}" title="{{ item.name | capitalize }}"><i class="{{ item.icon }}"></i></a>
+            <a target="_blank" href="{{ item.link }}" title="{{ item.name | capitalize }}"><i class="{{ item.icon }}"></i></a>
         {% endif %}
     {% endfor %}
     </div>
@@ -30,3 +30,10 @@ title: Home
 </div>
 
 
+<script type="text/javascript">
+    mixpanel.track_links("a", "social link clicked", function (element) {
+        return {
+            name: element.title
+        }
+    });
+</script>
